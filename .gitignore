@@ -1,0 +1,4 @@
+/env
+/api-backend/.env
+__pycache__/
+uvicorn main:app --reload --host 0.0.0.0 --port 8021
