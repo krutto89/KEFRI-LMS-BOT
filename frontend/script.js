@@ -39,7 +39,7 @@ fetch('http://127.0.0.1:8021/librarybot', {
   typing.remove();
   const botReply = document.createElement('div');
   botReply.className = 'bot';
-  botReply.innerHTML = `<div>${data.reply}</div><span class="timestamp">${getTime()}</span>`;
+  botReply.innerHTML = `<div>${data.response}</div><span class="timestamp">${getTime()}</span>`;
   messages.appendChild(botReply);
   messages.scrollTop = messages.scrollHeight;
 })
