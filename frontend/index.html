@@ -1,0 +1,26 @@
+<html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jazamiti chat</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div id="chat-widget" class="chat-closed">
+  <div class="chat-header" onclick="toggleChat()">
+    💬 Ask JazaMiti Bot
+  </div>
+  <div class="chat-body">
+    <div class="messages" id="messages">
+      <div class="bot">Hi! How can I help you with tree planting today? 🌱</div>
+    </div>
+    <div class="chat-input">
+      <input type="text" id="userInput" placeholder="Chat with me..." />
+      <button onclick="sendMessage()">➤</button>
+    </div>
+  </div>
+</div>
+<script src="script.js"></script>
+</body>
+</html>
