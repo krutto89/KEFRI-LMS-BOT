@@ -21,7 +21,7 @@ function sendMessage() {
   // Add typing indicator
   const typing = document.createElement('div');
   typing.className = 'bot typing';
-  typing.textContent = 'JazaMiti is typing...';
+  typing.textContent = 'KEFRI Lexi is typing...';
   messages.appendChild(typing);
   messages.scrollTop = messages.scrollHeight;
 
